@@ -1,0 +1,23 @@
+{
+  "name": "api_restful",
+  "version": "1.0.0",
+  "description": "Construção de uma API com Node.js, integrando as plataformas Pipedrive e Bling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brenogbestrella/API_RESTful.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brenogbestrella/API_RESTful/issues"
+  },
+  "homepage": "https://github.com/brenogbestrella/API_RESTful#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
