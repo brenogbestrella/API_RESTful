@@ -1,18 +1,11 @@
 const PipedriveService = require("../services/PipedriveService");
-const PropostaAceita = require("../models/PropostaAceita");
 
 const controller = {
     getPropostasPipedrive: async (req, res) => {
-        const ordemsAceitas = await PipedriveService();
+        const results = await PipedriveService.getOrdem();
 
-        return res.json(ordemsAceitas)
+        return res.json(results)
     },
-
-    getPropostasAceitas: async (req, res) => {
-        const propostasAceitas = await PropostaAceita.find();
-
-        return res.json(propostasAceitas)
-    }
 };
 
 module.exports = controller;
