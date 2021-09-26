@@ -1,3 +1,5 @@
+//Utilizei o MongoDB na forma de Mongoose, orientado à objetos (https://mongoosejs.com/)
+
 const mongoose = require('mongoose');
 
 mongoose.connect('mongodb://localhost/propostasaceitas', { 

@@ -1,7 +1,7 @@
 const mongoose = require("../database");
 const Schema = mongoose.Schema
 
-const propostaAceitaSchema = new Schema ({
+const propostaAceitaSchema = new Schema ({  //Utilizei os principais itens do formulário do Pipedrive, conforme a plataforma online
     id: {
         type: String,
         required: true,
